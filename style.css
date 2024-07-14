@@ -240,7 +240,7 @@ span {
 
 .about {
     text-align: center;
-    min-height: 100vh;
+    min-height: 10vh;
     width: 100%;
     padding-top: 100px;
 }
@@ -308,15 +308,15 @@ button:hover {
 
 #skylls {
     text-align: center;
-    min-height: 100vh;
+    min-height: 10vh;
     width: 100%;
-    padding-top: -100px;
+    
 }
 
 
-.skylls {
+.skills {
     align-content: center;
-    padding-top: 100px;
+    
     display: flex;
     justify-content: space-between;
     margin: 5%;
@@ -376,7 +376,7 @@ button:hover {
 
 
 .projects {
-    min-height: 100vh;
+    min-height: 10vh;
     width: 100%;
     text-align: center;
 
