@@ -1,0 +1,91 @@
+@media screen and (max-width:900px) {
+
+    .nav-links li a {
+        display: none;
+    }
+
+    .toggle {
+        display: block;
+    }
+
+    .slide {
+        display: block;
+    }
+
+    .logo {
+        font-size: 30px;
+
+    }
+
+    .text-profil {
+        font-size: 2rem;
+    }
+
+    .P-1 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .P-2 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .about-container {
+        flex-direction: column;
+    }
+
+    .P-3 {
+        font-size: 15px;
+        text-align: center;
+    }
+
+
+    .profil img {
+        width: 50%;
+    }
+
+    .contacts h2 {
+        font-size: 40px;
+        align-content: center;
+    }
+
+    .contacts {
+        align-content: center;
+
+    }
+
+    .container {
+
+        padding-top: 50px;
+        margin-left: 5px;
+        margin-right: 5px;
+        padding-bottom: 50px;
+    }
+
+    input, textarea {
+        width: 100%;
+    }
+
+    .row {
+
+        flex-direction: column;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    .contact-wrapper {
+
+        grid-template-columns: 1fr;
+
+    }
+
+    .skylls{
+        
+        align-content: center ;
+        align-items: center;
+    }
+
+}
