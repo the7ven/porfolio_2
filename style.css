@@ -238,6 +238,38 @@ span {
     font-family: "Lora", serif;
 }
 
+.P-4 {
+    top: 80%;
+    position: absolute;
+    color: #b2ccd1;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: "Lora", serif;
+}
+
+.socials{
+    top: 85% ;
+    position: absolute;
+    display: flex;
+    align-content: center;
+    
+   
+
+
+}
+
+.icon{
+    cursor: pointer;
+    margin: 10px;
+    
+}
+
+.icon img{
+    width: 30px;
+}
+
+
+
 .about {
     background-color: rgb(206, 206, 206);
     text-align: center;
@@ -266,7 +298,7 @@ span {
 }
 
 .about-text {
-    
+
     box-sizing: border-box;
     flex-basis: 50%;
     align-content: center;
@@ -285,6 +317,9 @@ span {
     font-size: 3rem;
     text-align: center;
 }
+
+
+
 
 
 button {
@@ -309,6 +344,36 @@ button:hover {
     transform: translateY(-10px);
 }
 
+.work {
+
+
+
+    background-color: #18181a;
+    align-items: center;
+
+}
+
+.web-dev {
+
+    flex-basis: 50%;
+}
+
+.mobile-app {
+    flex-basis: 50%;
+}
+
+.title3 {
+    color: #ffffff;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.p5 {
+    color: #c1cbce;
+}
+
+
+
 
 #skills {
     text-align: center;
@@ -328,7 +393,7 @@ button:hover {
     justify-content: space-between;
 }
 
- 
+
 
 .html {
     flex-basis: 25%;
