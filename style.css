@@ -232,13 +232,14 @@ span {
 .P-2 {
     top: 70%;
     position: absolute;
-    color: #e05050;
+    color: #1695eb;
     font-size: 40px;
     font-weight: 600;
     font-family: "Lora", serif;
 }
 
 .about {
+    background-color: rgb(206, 206, 206);
     text-align: center;
     min-height: 10vh;
     width: 100%;
@@ -250,6 +251,7 @@ span {
     display: flex;
     justify-content: space-between;
     margin: 5%;
+    padding-bottom: 100px;
 }
 
 .profil {
@@ -264,7 +266,7 @@ span {
 }
 
 .about-text {
-
+    
     box-sizing: border-box;
     flex-basis: 50%;
     align-content: center;
@@ -274,7 +276,8 @@ span {
 .P-3 {
     font-size: 20px;
     font-family: "Lora", serif;
-    font-weight: 400;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
 
 }
 
@@ -299,6 +302,7 @@ button {
 }
 
 button:hover {
+    color: whitesmoke;
     border: 1px solid rgb(49, 107, 214);
     background-color: rgb(78, 116, 187);
     transition: all ease 0.5s;
@@ -306,21 +310,25 @@ button:hover {
 }
 
 
-#skylls {
+#skills {
     text-align: center;
-    min-height: 10vh;
+    padding-bottom: 100px;
     width: 100%;
-    
+    align-items: center;
+
+
+
 }
 
 
 .skills {
     align-content: center;
-    
+    padding-top: 100px;
     display: flex;
     justify-content: space-between;
-    margin: 5%;
 }
+
+ 
 
 .html {
     flex-basis: 25%;
@@ -400,7 +408,7 @@ button:hover {
 
 .project1 {
     flex-basis: 30%;
-    background: #ffffff;
+    background: #f0eeee;
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 30px 22px;
