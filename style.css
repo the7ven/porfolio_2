@@ -222,7 +222,7 @@ span {
 }
 
 .P-1 {
-    top: 60%;
+    top: 65%;
     position: absolute;
     color: #a5b5b9;
     font-size: 30px;
@@ -230,7 +230,7 @@ span {
 }
 
 .P-2 {
-    top: 70%;
+    top: 75%;
     position: absolute;
     color: #1695eb;
     font-size: 40px;
@@ -239,7 +239,7 @@ span {
 }
 
 .P-4 {
-    top: 80%;
+    top: 85%;
     position: absolute;
     color: #b2ccd1;
     font-size: 25px;
@@ -248,7 +248,7 @@ span {
 }
 
 .socials{
-    top: 85% ;
+    top: 92% ;
     position: absolute;
     display: flex;
     align-content: center;
