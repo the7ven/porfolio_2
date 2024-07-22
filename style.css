@@ -8,7 +8,7 @@
 header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/fotis-fotopoulos-LJ9KY8pIH3E-unsplash.jpg);
+    background-image: url(images/jeshoots-com-pUAM5hPaCRI-unsplash.jpg);
     background-position: center;
     background-size: cover;
 
@@ -44,7 +44,7 @@ header {
 
 .slide ul li a {
 
-    color: #413f41;
+    color: #2c2b2c;
     font-weight: 500;
     padding: 5px 0;
     display: block;
@@ -163,7 +163,7 @@ nav {
 }
 
 .nav-links li a {
-    color: #fafafa;
+    color: #3a3838;
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 900;
@@ -185,10 +185,12 @@ nav {
 
 
 .logo {
-
+    
     font-size: 40px;
-    font-weight: 800;
-    color: rgb(155, 151, 151);
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    font-style:italic;
+
 
 
 
@@ -206,7 +208,7 @@ nav {
     position: absolute;
     text-align: center;
     top: 40%;
-    color: #c1cbce;
+    color: #414344;
     font-size: 4rem;
     font-weight: 400;
     border: 5px solid rgb(111, 164, 243);
@@ -217,14 +219,14 @@ nav {
 }
 
 span {
-    color: rgb(111, 164, 243);
+    color: rgb(75, 134, 224);
     font-weight: 900;
 }
 
 .P-1 {
     top: 65%;
     position: absolute;
-    color: #a5b5b9;
+    color: #515455;
     font-size: 30px;
     font-weight: 600;
 }
@@ -241,30 +243,30 @@ span {
 .P-4 {
     top: 85%;
     position: absolute;
-    color: #b2ccd1;
+    color: #4e5557;
     font-size: 25px;
     font-weight: 700;
     font-family: "Lora", serif;
 }
 
-.socials{
-    top: 92% ;
+.socials {
+    top: 92%;
     position: absolute;
     display: flex;
     align-content: center;
-    
-   
+
+
 
 
 }
 
-.icon{
+.icon {
     cursor: pointer;
     margin: 10px;
-    
+
 }
 
-.icon img{
+.icon img {
     width: 30px;
 }
 
