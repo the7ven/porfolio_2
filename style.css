@@ -172,9 +172,9 @@ nav {
 }
 
 .nav-links li a:hover {
+    transform: translateY(-10px);
+    color: rgb(40, 188, 233);
 
-    color: rgb(12, 128, 223);
-    text-decoration: underline;
 
 
 
@@ -185,11 +185,11 @@ nav {
 
 
 .logo {
-    
+
     font-size: 40px;
     font-weight: 900;
     color: rgb(255, 255, 255);
-    font-style:italic;
+    font-style: italic;
 
 
 
@@ -200,6 +200,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+   
 }
 
 .text-profil {
@@ -223,16 +224,10 @@ span {
     font-weight: 900;
 }
 
-.P-1 {
-    top: 65%;
-    position: absolute;
-    color: #515455;
-    font-size: 30px;
-    font-weight: 600;
-}
+
 
 .P-2 {
-    top: 75%;
+    top: 65%;
     position: absolute;
     color: #1695eb;
     font-size: 40px;
@@ -241,7 +236,7 @@ span {
 }
 
 .P-4 {
-    top: 85%;
+    top: 75%;
     position: absolute;
     color: #4e5557;
     font-size: 25px;
@@ -250,20 +245,31 @@ span {
 }
 
 .socials {
-    top: 92%;
+    top: 80%;
     position: absolute;
     display: flex;
     align-content: center;
 
+    padding: 10px 0;
+    background-color: #101111;
+    border-radius: 30px;
+    transition: all ease 0.5s;
 
+}
 
-
+.socials:hover {
+    transform: translateY(-10px);
 }
 
 .icon {
     cursor: pointer;
     margin: 10px;
+    transition: all ease 0.5s;
 
+}
+
+.icon:hover {
+    transform: translateY(-10px);
 }
 
 .icon img {
