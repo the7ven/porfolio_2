@@ -715,7 +715,10 @@ footer .menu ul {
     margin: 10px 0;
     flex-wrap: wrap;
     color: #ffffff;
+    padding: 20px;
 }
+
+
 
 footer .social_icon li,
 footer .menu ul li {
@@ -723,21 +726,21 @@ footer .menu ul li {
 
 }
 
-footer .social_icon li a {
+footer .social_icon  li a {
 
 
     margin: 0 10px;
     padding: 3px;
     display: inline-block;
     transition: 0.5s;
-    border: white solid 1px;
-    background-color: #c8dbec;
     margin-top: 20px;
-    border-radius: 50%;
+    width: 30px;
+    
+    
 
 }
 
-footer .social_icon li a:hover {
+footer .social_icon  li a:hover {
     color: grey;
     transform: translateY(-10px);
 }
@@ -748,6 +751,7 @@ footer .menu ul li a {
     display: inline-block;
     color: #ffffff;
     margin-top: 20px;
+    
 
 
 }
@@ -763,3 +767,15 @@ footer p {
     font-size: 1em;
     color: red;
 }
+
+
+.hidden {
+    opacity: 0;
+    transform: translateY(100px);
+    transition: opacity 2s ease-out, transform 2s ease-out;
+  }
+
+  .reveal {
+    opacity: 1;
+    transform: translateY(0);
+  }
