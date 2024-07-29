@@ -8,9 +8,13 @@ document.addEventListener("DOMContentLoaded", function() {
         if (elementTop < windowHeight - 100) {
           element.classList.add('reveal');
         }
+       
       });
     };
   
     window.addEventListener('scroll', revealOnScroll);
-    revealOnScroll();  // Check for reveal elements on page load
+    revealOnScroll();  
   });
+
+
+ 
