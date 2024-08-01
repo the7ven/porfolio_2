@@ -597,7 +597,23 @@ button:hover {
 }
 
 
-/*section contact */
+button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #418ed6;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: rgb(30, 74, 156);
+}
+
+
+/*section contact 
 
 
 .contacts {
@@ -660,20 +676,7 @@ textarea:focus {
     box-shadow: 0 0 8px #bbb;
 }
 
-button {
-    display: inline-block;
-    padding: 12px 24px;
-    background-color: #418ed6;
-    color: #000000;
-    border: none;
-    cursor: pointer;
-    border-radius: 10px;
-    transition: 0.3s ease;
-}
 
-button:hover {
-    background-color: rgb(30, 74, 156);
-}
 
 
 
@@ -691,6 +694,10 @@ button:hover {
     font-weight: 600;
 
 }
+
+*/
+
+
 
 
 
