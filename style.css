@@ -723,7 +723,7 @@ footer .menu ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px 0;
+    
     flex-wrap: wrap;
     color: #ffffff;
     padding: 20px;
@@ -745,7 +745,7 @@ footer .social_icon  li a {
     display: inline-block;
     transition: 0.5s;
     margin-top: 20px;
-    width: 30px;
+    width: 40px;
     
     
 
@@ -769,14 +769,14 @@ footer .menu ul li a {
 
 footer p {
     font-size: 1.5em;
-    color: #418ed6;
+    color: #bebebe;
 }
 
 .bottom {
     margin-top: 20px;
     bottom: 30px;
     font-size: 1em;
-    color: red;
+    color: rgb(0, 174, 255);
 }
 
 
